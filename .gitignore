@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+uploads/*
+!uploads/.gitkeep
+data/*
+!data/.gitkeep
+generated_layouts/*
+!generated_layouts/.gitkeep
+reports/generated/*
+!reports/generated/.gitkeep
