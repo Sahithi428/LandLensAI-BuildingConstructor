@@ -1,0 +1,464 @@
+{
+  "id": "project_168a14884e",
+  "name": "My LandLens Project",
+  "updated_at": "2026-10-04T12:19:25.111481",
+  "state": {
+    "analysis": {
+      "acres": 0.153,
+      "area_sqft": 6666.67,
+      "boundary_dimensions": [
+        {
+          "from": "P1",
+          "ft": 60,
+          "to": "P2"
+        },
+        {
+          "from": "P2",
+          "ft": 100,
+          "to": "P3"
+        },
+        {
+          "from": "P3",
+          "ft": 60,
+          "to": "P4"
+        },
+        {
+          "from": "P4",
+          "ft": 100,
+          "to": "P1"
+        }
+      ],
+      "cents": 15.3,
+      "confidence": "Calibrated reference",
+      "image_height": 2656,
+      "image_width": 3984,
+      "measurements": [
+        {
+          "ft": 60,
+          "name": "Front"
+        },
+        {
+          "ft": 100,
+          "name": "Right"
+        },
+        {
+          "ft": 60,
+          "name": "Back"
+        },
+        {
+          "ft": 100,
+          "name": "Left"
+        }
+      ],
+      "perimeter_ft": 333.33,
+      "points": [
+        {
+          "id": "P1",
+          "x": 318.72,
+          "y": 318.71999999999997
+        },
+        {
+          "id": "P2",
+          "x": 3665.28,
+          "y": 265.6
+        },
+        {
+          "id": "P3",
+          "x": 3744.9599999999996,
+          "y": 2337.28
+        },
+        {
+          "id": "P4",
+          "x": 239.04,
+          "y": 2390.4
+        }
+      ],
+      "scale_px_per_ft": 35.063,
+      "sq_meters": 619.35,
+      "sq_yards": 740.74,
+      "warnings": [
+        "Photo-based boundary detection is conceptual; verify against survey/property records."
+      ]
+    },
+    "layout": {
+      "common_park": {
+        "area_sqft": 666.67,
+        "percent": 10
+      },
+      "common_parking": {
+        "area_sqft": 466.67,
+        "near": "Main entrance / exit",
+        "percent": 7,
+        "spaces": 2
+      },
+      "entry": {
+        "x": 50,
+        "y": 96
+      },
+      "exit": {
+        "x": 50,
+        "y": 4
+      },
+      "internal_road": {
+        "area_sqft": 533.33,
+        "width_ft": 20
+      },
+      "main_road": {
+        "area_sqft": 800,
+        "width_ft": 30
+      },
+      "plots": [
+        {
+          "area_sqft": 700,
+          "h": 47,
+          "length_ft": 28.7,
+          "plot_no": 1,
+          "w": 30.33,
+          "width_ft": 24.39,
+          "x": 1.5,
+          "y": 1.5
+        },
+        {
+          "area_sqft": 700,
+          "h": 47,
+          "length_ft": 28.7,
+          "plot_no": 2,
+          "w": 30.33,
+          "width_ft": 24.39,
+          "x": 34.83,
+          "y": 1.5
+        },
+        {
+          "area_sqft": 700,
+          "h": 47,
+          "length_ft": 28.7,
+          "plot_no": 3,
+          "w": 30.33,
+          "width_ft": 24.39,
+          "x": 68.17,
+          "y": 1.5
+        },
+        {
+          "area_sqft": 700,
+          "h": 47,
+          "length_ft": 28.7,
+          "plot_no": 4,
+          "w": 30.33,
+          "width_ft": 24.39,
+          "x": 1.5,
+          "y": 51.5
+        },
+        {
+          "area_sqft": 700,
+          "h": 47,
+          "length_ft": 28.7,
+          "plot_no": 5,
+          "w": 30.33,
+          "width_ft": 24.39,
+          "x": 34.83,
+          "y": 51.5
+        },
+        {
+          "area_sqft": 700,
+          "h": 47,
+          "length_ft": 28.7,
+          "plot_no": 6,
+          "w": 30.33,
+          "width_ft": 24.39,
+          "x": 68.17,
+          "y": 51.5
+        }
+      ]
+    },
+    "building": {
+      "building_type": "Duplex",
+      "built_up_sqft": 1324.08,
+      "created_at": "2026-10-04T12:16:13.907713",
+      "floor_area_sqft": 441.36,
+      "floor_data": [
+        {
+          "floor": 0,
+          "label": "Ground",
+          "rooms": [
+            {
+              "length_ft": 7.2,
+              "name": "Living Room",
+              "type": "room",
+              "width_ft": 5.33,
+              "x_ft": 0.6,
+              "y_ft": 0.6
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Kitchen",
+              "type": "room",
+              "width_ft": 5.33,
+              "x_ft": 0.6,
+              "y_ft": 8.4
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Dining",
+              "type": "room",
+              "width_ft": 5.33,
+              "x_ft": 0.6,
+              "y_ft": 16.2
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Bedroom",
+              "type": "room",
+              "width_ft": 5.33,
+              "x_ft": 6.53,
+              "y_ft": 0.6
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Bathroom",
+              "type": "room",
+              "width_ft": 5.33,
+              "x_ft": 6.53,
+              "y_ft": 8.4
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Parking",
+              "type": "parking",
+              "width_ft": 5.33,
+              "x_ft": 6.53,
+              "y_ft": 16.2
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Staircase",
+              "type": "stair",
+              "width_ft": 5.33,
+              "x_ft": 12.46,
+              "y_ft": 0.6
+            }
+          ]
+        },
+        {
+          "floor": 1,
+          "label": "Floor 1",
+          "rooms": [
+            {
+              "length_ft": 7.2,
+              "name": "Master Bedroom",
+              "type": "room",
+              "width_ft": 8.29,
+              "x_ft": 0.6,
+              "y_ft": 0.6
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Bedroom",
+              "type": "room",
+              "width_ft": 8.29,
+              "x_ft": 0.6,
+              "y_ft": 8.4
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Bathroom",
+              "type": "room",
+              "width_ft": 8.29,
+              "x_ft": 9.49,
+              "y_ft": 0.6
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Study",
+              "type": "room",
+              "width_ft": 8.29,
+              "x_ft": 9.49,
+              "y_ft": 8.4
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Balcony",
+              "type": "balcony",
+              "width_ft": 8.29,
+              "x_ft": 18.39,
+              "y_ft": 0.6
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Staircase",
+              "type": "stair",
+              "width_ft": 8.29,
+              "x_ft": 18.39,
+              "y_ft": 8.4
+            }
+          ]
+        },
+        {
+          "floor": 2,
+          "label": "Floor 2",
+          "rooms": [
+            {
+              "length_ft": 7.2,
+              "name": "Bedroom",
+              "type": "room",
+              "width_ft": 8.29,
+              "x_ft": 0.6,
+              "y_ft": 0.6
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Bathroom",
+              "type": "room",
+              "width_ft": 8.29,
+              "x_ft": 0.6,
+              "y_ft": 8.4
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Terrace",
+              "type": "balcony",
+              "width_ft": 8.29,
+              "x_ft": 9.49,
+              "y_ft": 0.6
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Utility",
+              "type": "room",
+              "width_ft": 8.29,
+              "x_ft": 9.49,
+              "y_ft": 8.4
+            },
+            {
+              "length_ft": 7.2,
+              "name": "Staircase",
+              "type": "stair",
+              "width_ft": 8.29,
+              "x_ft": 18.39,
+              "y_ft": 0.6
+            }
+          ]
+        }
+      ],
+      "floor_height_ft": 10,
+      "floors": 3,
+      "id": "bld_bbe2ffdcc0",
+      "length_ft": 24,
+      "plot_no": 1,
+      "room_choices": [
+        "Bedroom",
+        "Master Bedroom",
+        "Bathroom",
+        "Living Room",
+        "Kitchen",
+        "Dining",
+        "Study",
+        "Balcony",
+        "Terrace",
+        "Parking",
+        "Staircase",
+        "Utility"
+      ],
+      "room_count": 18,
+      "setbacks": {
+        "front": 5,
+        "left": 3,
+        "rear": 5,
+        "right": 3
+      },
+      "style": "Modern Contemporary",
+      "width_ft": 18.39
+    },
+    "cost": {
+      "approx_cost_inr": 2912976,
+      "bricks_blocks": 10592,
+      "cement_tonnes": 23.83,
+      "flooring_sqft": 1085.75,
+      "labour_inr": 860652,
+      "material_inr": 2052324,
+      "paint_sqft": 3575.02,
+      "quality": "standard",
+      "rate_per_sqft": 2200,
+      "sand_cuft": 112.55,
+      "steel_tonnes": 5.96
+    },
+    "construction": {
+      "area_sqft": 1324.08,
+      "average_workers": 9,
+      "disclaimer": "Conceptual planning estimate; actual construction duration and workforce vary by site, approvals, weather, supply and contractor.",
+      "floors": 3,
+      "months": 4.3,
+      "peak_workers": 15,
+      "phases": [
+        {
+          "days": 7,
+          "description": "Survey, clearing, setting out",
+          "phase": "Site preparation",
+          "workers": 5
+        },
+        {
+          "days": 26,
+          "description": "Excavation, footing, plinth",
+          "phase": "Foundation",
+          "workers": 11
+        },
+        {
+          "days": 33,
+          "description": "Columns, beams, slabs and stairs",
+          "phase": "Structure",
+          "workers": 13
+        },
+        {
+          "days": 23,
+          "description": "Walls and partitions",
+          "phase": "Brick / block work",
+          "workers": 10
+        },
+        {
+          "days": 21,
+          "description": "First-fix services",
+          "phase": "Plumbing & electrical",
+          "workers": 8
+        },
+        {
+          "days": 20,
+          "description": "Internal and external plaster",
+          "phase": "Plastering",
+          "workers": 11
+        },
+        {
+          "days": 16,
+          "description": "Floor, kitchen and bathroom finishes",
+          "phase": "Flooring & tiling",
+          "workers": 9
+        },
+        {
+          "days": 12,
+          "description": "Frames, shutters and glazing",
+          "phase": "Doors & windows",
+          "workers": 6
+        },
+        {
+          "days": 15,
+          "description": "Primer, coats and touch-up",
+          "phase": "Painting",
+          "workers": 8
+        },
+        {
+          "days": 12,
+          "description": "Fixtures, cleaning and handover",
+          "phase": "Final finishing",
+          "workers": 6
+        }
+      ],
+      "quality": "standard",
+      "rooms": 18,
+      "total_days": 131
+    },
+    "image": {
+      "filename": "77acde66779b420ab6b2b6e14b46450c.jpg",
+      "height": 2656,
+      "url": "/uploads/77acde66779b420ab6b2b6e14b46450c.jpg",
+      "width": 3984
+    }
+  }
+}
