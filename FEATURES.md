@@ -1,0 +1,27 @@
+# Advanced Feature Matrix
+
+- Land image upload and preview
+- User-provided side measurements
+- Automatic conceptual boundary point generation from the image frame/aspect ratio
+- P1...Pn boundary markers and dimension labels
+- Measurement calibration and consistency checks
+- Area/perimeter/unit conversions
+- Editable boundary points
+- Plot division layouts
+- Main/internal roads
+- One common park
+- One common parking area near entry
+- Plot selection
+- Residential/commercial/mixed-use building constructor
+- Ground to G+3
+- Setbacks and built-up calculations
+- AI-style room templates
+- Editable 2D floor plan
+- Doors, windows and staircase
+- Synchronized offline Canvas-based 3D architecture
+- Floor visibility and exploded view
+- Materials, furniture and lighting controls
+- Cost/material estimation
+- Project persistence
+- PDF report generation
+- Validation warnings
